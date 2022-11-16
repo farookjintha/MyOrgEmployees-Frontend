@@ -24,7 +24,7 @@ const UpdateEmployee = () => {
         }).catch(error => {
             console.log('Error: ', error);
         })
-    }, []);
+    }, [empID]);
 
     const handleInput = (value) => {
         return setEmployeeDetails(employee => {
